@@ -4,7 +4,7 @@ MAINTAINER Byeonggil-Jung "jbkcose@gmail.com"
 COPY . /app
 WORKDIR /app
 
-RUN sudo ./gradlew build jar
+RUN ./gradlew build jar
 WORKDIR /app/build/libs
 
 ENV JAVA_OPT=""
