@@ -9,7 +9,7 @@ public class AppController {
 
     @GetMapping("/")
     public String version(Model model) {
-        model.addAttribute("version", "0.0.13");
+        model.addAttribute("version", "0.0.14");
 
         return "index";
     }
